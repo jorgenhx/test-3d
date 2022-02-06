@@ -6,7 +6,7 @@
 body {
     display: block;
     width: 100vw;
-    height: 100wh;
+    height: 100vh;
     background-color: steelblue;
     overflow: hidden;
 }
@@ -27,12 +27,10 @@ body {
 }
 .side {
     position: absolute;
+    width: 720px;
     height: 480px;
     background-color: white;
     border: 2px solid black;
-}
-.side-1, .side-2, .side-3, .side-4 {
-    width: 720px;
 }
 .side-1 {
     transform: translateZ(240px);
