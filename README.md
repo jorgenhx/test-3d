@@ -1,2 +1,2 @@
 # test-3d
-HTML+CSS spinny box-thing
+Various HTML+CSS 3D transform stuff.
