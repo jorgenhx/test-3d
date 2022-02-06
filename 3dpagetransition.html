@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/3dpagetransition.css">
     <title>3D Test</title>
 </head>
 <body>
     <div id="container">
-        <div class="box">
+        <div id="box">
             <div class="side side-1">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perspiciatis eligendi at laudantium
                    incidunt nostrum harum nam. Iste eum quibusdam velit, laudantium aut facilis unde eveniet porro autem! Vel
@@ -50,11 +50,14 @@
                    officiis. Aut corporis nesciunt illum debitis cumque, eos quos laborum, voluptatem ducimus repellat numquam
                    eligendi quaerat suscipit voluptate at accusantium, architecto inventore sit necessitatibus eum!</p>
             </div>
-            <div class="side side-5">
-            </div>
-            <div class="side side-6">
-            </div>
         </div>
     </div>
+    <div class="buttons">
+        <div class="button" onclick="rotate(0)">Side 1</div>
+        <div class="button" onclick="rotate(90)">Side 2</div>
+        <div class="button" onclick="rotate(180)">Side 3</div>
+        <div class="button" onclick="rotate(270)">Side 4</div>
+    </div>
+    <script src="scripts/3dpagetransition.js"></script>
 </body>
 </html>

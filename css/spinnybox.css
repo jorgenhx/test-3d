@@ -15,7 +15,6 @@ body {
     height: 480px;
     top: calc(50% - 240px);
     left: calc(50% - 360px);
-    float: left;
     perspective: 1000px;
 }
 @keyframes rotate {
@@ -106,5 +105,5 @@ body {
     background-color: lightgrey;
 }
 .side-5, .side-6 {
-    background-image: url('images/back480.jpg');
+    background-image: url('../images/back480.jpg');
 }
